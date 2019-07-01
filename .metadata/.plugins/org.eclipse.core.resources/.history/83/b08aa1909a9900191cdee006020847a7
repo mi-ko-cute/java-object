@@ -1,0 +1,36 @@
+package jp.co.internous.action;
+
+public class Test {
+	public static void main(String[]args){
+		Person taro = new Person();
+		taro.name = "山田太郎";
+		taro.age = 20;
+		taro.phoneNumber = "090-1111-1111";
+		taro.address = "kyoto";
+
+		System.out.println(taro.name);
+		System.out.println(taro.age);
+
+		Person ziro = new Person();
+		ziro.name = "木村次郎";
+		ziro.age = 18;
+
+		System.out.println(ziro.name);
+		System.out.println(ziro.age);
+
+		Person hanako = new Person();
+		hanako.name = "鈴木花子";
+		hanako.age = 16;
+
+		System.out.println(hanako.name);
+		System.out.println(hanako.age);
+
+		Person kazuki = new Person();
+		kazuki.name = "櫻井一毅";
+		kazuki.age = 25;
+
+		System.out.println(kazuki.name);
+		System.out.println(kazuki.age);
+
+	}
+}
